@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    background: #fff;
+    position: relative;
+}
+
+section {
+    padding-top: 5%;
+    min-height: 100%;
+    font-weight: 300;
+    color: #2a3039;
+    z-index: 1;
+    position: relative;
+}
+
+section h1 {
+    font-size: 35px;
+}
+
+.site-info__title {
+    margin: 0 0 10px;
+    font-size: 3.75rem;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+    bottom: 90px;
+}
+
+.site-info__description {
+    display: block;
+    margin: 0;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    bottom: 60px;
+}
+
+.site-info__description,
+.site-info__title {
+    position: fixed;
+    left: 85%;
+    max-width: 400px
+}
+
+.about-info__title,
+.skills-info__title,
+.projects-info__title,
+.contact-info__title {
+    margin: 0 0 10px;
+    font-size: 3.75rem;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+    bottom: 65%;
+}
+
+.about-info__description,
+.skills-info__description,
+.projects-info__description1,
+.contact-info__description {
+    display: block;
+    margin: 0;
+    color: #000;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    bottom: 35%;
+}
+
+.about-info__description,
+.about-info__title,
+.skills-info__description,
+.skills-info__title,
+.projects-info__title,
+.projects-info__description1,
+.contact-info__title,
+.contact-info__description {
+    position: relative;
+    left: 2%;
+    max-width: 400px
+}
+
+ul.skills_list {
+    padding-left: 5rem;
+    padding-top: 3rem;
+    list-style-type: square;
+    list-style-position: outside;
+    list-style-image: none;
+}
+
+.projects-info__description2 {
+    display: block;
+    margin: 0;
+    color: #000;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    bottom: 35%;
+    position: absolute;
+    left: 30%;
+    max-width: 400px;
+    top: 18%
+}
+
+.projects-info__description3 {
+    display: block;
+    margin: 0;
+    color: #000;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    bottom: 35%;
+    position: absolute;
+    left: 60%;
+    max-width: 400px;
+    top: 18%
+}
+
+#home {
+    background: #E27D60;
+    color: #ffffff;
+}
+
+#about {
+    background: #85cdca;
+}
+
+#skills {
+    background: #E8A87C;
+}
+
+#projects {
+    background: #C38d9E
+}
+
+#contact {
+    background: #41b3a3
+}
+
+.dotnav-right {
+    right: 10px;
+    top: 50%;
+    margin-top: -50px;
+    height: 100px;
+    z-index: 999;
+    position: fixed;
+}
+
+.dotnav {
+    padding: 0;
+    list-style: none;
+    font-size: 0.001px;
+}
+
+.dotnav>li {
+    display: inline-block;
+    font-size: 1rem;
+    vertical-align: top;
+}
+
+.dotnav>li:nth-child(n+2) {
+    margin-left: 15px;
+}
+
+.dotnav>li>a {
+    display: inline-block;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    vertical-align: top;
+    overflow: hidden;
+    padding: 0;
+    text-indent: -999%;
+}
+
+.dotnav>li>a:hover,
+.dotnav>li>a:focus {
+    background: #000;
+    outline: none;
+}
+
+.dotnav>li>a:active {
+    background: #000;
+}
+
+.dotnav>li.active>a {
+    background: #000;
+}
+
+.dotnav-vertical>li {
+    display: block;
+    margin-right: 10px;
+}
+
+.dotnav-vertical>li:nth-child(n+2) {
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+.awesome-tooltip+.tooltip>.tooltip-inner {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+.awesome-tooltip+.tooltip.left>.tooltip-arrow {
+    top: 50%;
+    right: 0;
+    margin-top: -5px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #000;
+}
