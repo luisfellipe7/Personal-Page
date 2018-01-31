@@ -68,7 +68,6 @@ section h1 {
 .contact-info__description {
     display: block;
     margin: 0;
-    color: #000;
     font-size: 1.5rem;
     line-height: 2rem;
     bottom: 35%;
@@ -98,7 +97,6 @@ ul.skills_list {
 .projects-info__description2 {
     display: block;
     margin: 0;
-    color: #000;
     font-size: 1.5rem;
     line-height: 2rem;
     bottom: 35%;
@@ -122,24 +120,28 @@ ul.skills_list {
 }
 
 #home {
-    background: #E27D60;
-    color: #ffffff;
+    background: #929292;
+    color: #fff;
 }
 
 #about {
-    background: #85cdca;
+    background: #f8f8f8;
+    color:#000;
 }
 
 #skills {
-    background: #E8A87C;
+    background: #929292;
+    color: #fff;
 }
 
 #projects {
-    background: #C38d9E
+    background: #f8f8f8;
+    color:#000;
 }
 
 #contact {
-    background: #41b3a3
+    background: #929292;
+    color: #fff;
 }
 
 .dotnav-right {
